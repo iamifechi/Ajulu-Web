@@ -1,0 +1,139 @@
+body{
+    font-family:Montserrat;
+  } 
+  
+  a{
+    color:#FFFFFF;
+    text-decoration:none;
+  }
+  
+/* -------------> Navbar <----------*/
+  #navbar{
+      background: #9576f7;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex:wrap;
+      position:absolute;
+      width:100%;
+      height:8em;
+      top:0px;
+  }
+  
+  
+  #navbar #logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex:2;
+    width: 169px;
+    font-family: Monoton;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 56px;
+    color: #FFFFFF;
+  }
+  
+  #navbar nav{
+    flex:2;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+  }
+  
+  nav a{
+    margin:0 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100%;
+    padding:5px 10px;
+    border-radius: 4px;
+    color: whitesmoke;
+  }
+
+  nav a:hover{
+    transform: scale(1.1);
+    color:rgb(59, 0, 33);
+    background: rgba(245, 245, 245, 0.103);
+  }
+  
+  @media(max-width:800px){
+    #navbar, #navbar nav{
+      flex-direction: column;
+      align-items:center;
+    }
+    
+    #navbar{
+      height:12em;
+      justify-content:center;
+      align-items:center;
+    }
+
+    #logo{
+        flex:2;
+    }
+
+    #navbar nav{
+      flex:1;
+      justify-content:flex-start;
+    }
+
+    nav a{
+        font-size: 16px;
+        line-height:14px;
+        padding: 4px 8px;
+        margin-top:0px;
+    }
+
+    nav a:hover{
+      transform:scale(1);
+    }
+    
+  }
+  
+  
+ 
+  /* -------- > main <---------*/
+
+  #main{
+    position:absolute;
+    top:8em;
+    width:100%;
+  }
+
+  @media (max-width:800px){
+    #main{
+      top:12em;
+    }
+  }
+
+   /* -------- > Header <---------*/
+
+
+  #header{
+    background:#9576F7;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:stretch;
+  }
+  
+  #header-text{
+    color:whitesmoke;
+    display: flex;
+    align-self: flex-start;
+    flex-direction:column;
+    justify-content:space-around;
+    width:596px;
+  }
+  
+  #header-img{
+    display:flex;
+    justify-content:center;
+    width:504px;
+    height:581px;
+    background:grey;
+    position:
+  }
